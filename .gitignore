@@ -1,0 +1,14 @@
+# Environnements virtuels
+venv/
+env/
+.venv/
+
+# Fichiers générés par Python
+__pycache__/
+*.pyc
+
+# Fichiers générés par Jupyter Notebook
+.ipynb_checkpoints/
+
+# Configuration spécifique à VS Code (optionnel, selon vos préférences)
+.vscode/
