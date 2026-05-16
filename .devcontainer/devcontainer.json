@@ -7,10 +7,14 @@
           "permissions": {
             "contents": "write"
           }
+        },
+        "python_for_AI": {
+          "permissions": {
+            "contents": "write"
+          }
         }
       }
     }
   },
-  
-  "postCreateCommand": "cd /workspaces && git clone https://github.com/Mochatr/introduction_to_AI_agents.git"
+  "postCreateCommand": "cd /workspaces && https://github.com/Mochatr/introduction_to_AI_agents.git && https://github.com/Mochatr/python_for_AI.git"
 }
