@@ -1,0 +1,16 @@
+{
+  "name": "Multi-Repo Development",
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "introduction_to_AI_agents": {
+          "permissions": {
+            "contents": "write"
+          }
+        }
+      }
+    }
+  },
+  
+  "postCreateCommand": "cd /workspaces && git clone https://github.com/Mochatr/introduction_to_AI_agents.git"
+}
